@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import cykleBackground from './assets/cykle-background.png'
+import instagramIcon from './assets/instagram.png';
+import tiktokIcon from './assets/tik-tok.png';
 
 // AnimatedHero Component
 function AnimatedHero() {
@@ -61,12 +63,8 @@ function SignUpForm() {
     <div className="signup-section">
       <h1 className="brand-name">Cykle</h1>
       <h2 className="early-access">Early Access</h2>
-      <p className="signup-text">Sign Up</p>
       
       <form action="https://formspree.io/f/xdkdnolg" method="POST" className="signup-form">
-        <label htmlFor="email" className="email-label">
-          Email Address
-        </label>
         <input
           type="email"
           id="email"
@@ -89,7 +87,7 @@ function App() {
     <div className="app">
       <div className="header">
         <h3 className="tagline">
-          the <span className="highlight">neighborhoods</span><br />
+          the <span className="highlight">neighborhood's</span><br />
           thrifts in your <span className="highlight">pockets</span> 
         </h3>
       </div>
@@ -100,11 +98,11 @@ function App() {
       
       <div className="footer">
         <div className="social-icons">
-          <a href="https://imgur.com/jgfSQ9c.png" className="social-icon instagram" aria-label="Instagram">
-            📷
+          <a href="https://instagram.com/yourprofile" className="social-icon instagram" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+            <img src={instagramIcon} alt="Instagram" className="icon-img" />
           </a>
-          <a href="https://imgur.com/abbGXIa.png" className="social-icon tiktok" aria-label="TikTok">
-            🎵
+          <a href="https://tiktok.com/@yourprofile" className="social-icon tiktok" aria-label="TikTok" target="_blank" rel="noopener noreferrer">
+            <img src={tiktokIcon} alt="TikTok" className="icon-img" />
           </a>
         </div>
       </div>
