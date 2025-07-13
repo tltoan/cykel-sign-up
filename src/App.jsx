@@ -100,10 +100,10 @@ function App() {
       
       <div className="footer">
         <div className="social-icons">
-          <a href="#" className="social-icon instagram" aria-label="Instagram">
+          <a href="https://imgur.com/jgfSQ9c.png" className="social-icon instagram" aria-label="Instagram">
             📷
           </a>
-          <a href="#" className="social-icon tiktok" aria-label="TikTok">
+          <a href="https://imgur.com/abbGXIa.png" className="social-icon tiktok" aria-label="TikTok">
             🎵
           </a>
         </div>
