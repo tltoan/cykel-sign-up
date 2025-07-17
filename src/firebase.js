@@ -20,7 +20,7 @@ const db = getFirestore(app);
 // Function to add email to Firestore
 export const addEmailToCollection = async (email) => {
   try {
-    const docRef = await addDoc(collection(db, 'emails'), {
+    const docRef = await addDoc(collection(db, 'signUps'), {  // Changed from 'emails' to 'signUps'
       email: email,
       timestamp: serverTimestamp(),
       source: 'website-signup',
