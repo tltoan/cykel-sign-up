@@ -1,419 +1,581 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Privacy Policy - Cykle</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f8f9fa;
-        }
-        
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 40px 20px;
-            background: white;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            border-radius: 8px;
-            margin-top: 20px;
-            margin-bottom: 20px;
-        }
-        
-        .header {
-            text-align: center;
-            margin-bottom: 40px;
-            padding-bottom: 20px;
-            border-bottom: 2px solid #007AFF;
-        }
-        
-        .logo {
-            font-size: 2.5em;
-            font-weight: bold;
-            color: #007AFF;
-            margin-bottom: 10px;
-        }
-        
-        h1 {
-            color: #333;
-            font-size: 2em;
-            margin-bottom: 10px;
-        }
-        
-        h2 {
-            color: #007AFF;
-            font-size: 1.4em;
-            margin-top: 30px;
-            margin-bottom: 15px;
-            padding-bottom: 5px;
-            border-bottom: 1px solid #eee;
-        }
-        
-        h3 {
-            color: #555;
-            font-size: 1.2em;
-            margin-top: 20px;
-            margin-bottom: 10px;
-        }
-        
-        p, li {
-            margin-bottom: 12px;
-            color: #555;
-        }
-        
-        ul {
-            margin-left: 20px;
-            margin-bottom: 15px;
-        }
-        
-        .effective-date {
-            background: #f0f8ff;
-            padding: 15px;
-            border-radius: 6px;
-            border-left: 4px solid #007AFF;
-            margin-bottom: 30px;
-        }
-        
-        .important {
-            background: #fff3cd;
-            border: 1px solid #ffeaa7;
-            padding: 15px;
-            border-radius: 6px;
-            margin: 20px 0;
-        }
-        
-        .data-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-            background: #f8f9fa;
-            border-radius: 6px;
-            overflow: hidden;
-        }
-        
-        .data-table th,
-        .data-table td {
-            padding: 12px;
-            text-align: left;
-            border-bottom: 1px solid #dee2e6;
-        }
-        
-        .data-table th {
-            background: #007AFF;
-            color: white;
-            font-weight: 500;
-        }
-        
-        .contact-info {
-            background: #f8f9fa;
-            padding: 20px;
-            border-radius: 6px;
-            margin-top: 30px;
-            text-align: center;
-        }
-        
-        .privacy-highlight {
-            background: #e8f5e8;
-            border-left: 4px solid #28a745;
-            padding: 15px;
-            margin: 20px 0;
-        }
-        
-        a {
-            color: #007AFF;
-            text-decoration: none;
-        }
-        
-        a:hover {
-            text-decoration: underline;
-        }
-        
-        .toc {
-            background: #f8f9fa;
-            padding: 20px;
-            border-radius: 6px;
-            margin-bottom: 30px;
-        }
-        
-        .toc h3 {
-            margin-top: 0;
-            color: #007AFF;
-        }
-        
-        .toc ul {
-            margin-left: 0;
-            list-style: none;
-        }
-        
-        .toc li {
-            padding: 5px 0;
-        }
-        
-        .toc a {
-            text-decoration: none;
-            color: #555;
-        }
-        
-        .toc a:hover {
-            color: #007AFF;
-        }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background-color: #f8f9fa;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 40px 20px;
+        background: white;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      .header {
+        text-align: center;
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+        border-bottom: 2px solid #007aff;
+      }
+
+      .logo {
+        font-size: 2.5em;
+        font-weight: bold;
+        color: #007aff;
+        margin-bottom: 10px;
+      }
+
+      h1 {
+        color: #333;
+        font-size: 2em;
+        margin-bottom: 10px;
+      }
+
+      h2 {
+        color: #007aff;
+        font-size: 1.4em;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #eee;
+      }
+
+      h3 {
+        color: #555;
+        font-size: 1.2em;
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+
+      p,
+      li {
+        margin-bottom: 12px;
+        color: #555;
+      }
+
+      ul {
+        margin-left: 20px;
+        margin-bottom: 15px;
+      }
+
+      .effective-date {
+        background: #f0f8ff;
+        padding: 15px;
+        border-radius: 6px;
+        border-left: 4px solid #007aff;
+        margin-bottom: 30px;
+      }
+
+      .important {
+        background: #fff3cd;
+        border: 1px solid #ffeaa7;
+        padding: 15px;
+        border-radius: 6px;
+        margin: 20px 0;
+      }
+
+      .data-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        background: #f8f9fa;
+        border-radius: 6px;
+        overflow: hidden;
+      }
+
+      .data-table th,
+      .data-table td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #dee2e6;
+      }
+
+      .data-table th {
+        background: #007aff;
+        color: white;
+        font-weight: 500;
+      }
+
+      .contact-info {
+        background: #f8f9fa;
+        padding: 20px;
+        border-radius: 6px;
+        margin-top: 30px;
+        text-align: center;
+      }
+
+      .privacy-highlight {
+        background: #e8f5e8;
+        border-left: 4px solid #28a745;
+        padding: 15px;
+        margin: 20px 0;
+      }
+
+      a {
+        color: #007aff;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .toc {
+        background: #f8f9fa;
+        padding: 20px;
+        border-radius: 6px;
+        margin-bottom: 30px;
+      }
+
+      .toc h3 {
+        margin-top: 0;
+        color: #007aff;
+      }
+
+      .toc ul {
+        margin-left: 0;
+        list-style: none;
+      }
+
+      .toc li {
+        padding: 5px 0;
+      }
+
+      .toc a {
+        text-decoration: none;
+        color: #555;
+      }
+
+      .toc a:hover {
+        color: #007aff;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="header">
-            <div class="logo">Cykle</div>
-            <h1>Privacy Policy</h1>
-        </div>
-        
-        <div class="effective-date">
-            <strong>Effective Date:</strong> January 1, 2025<br>
-            <strong>Last Updated:</strong> January 1, 2025
-        </div>
+      <div class="header">
+        <div class="logo">Cykle</div>
+        <h1>Privacy Policy</h1>
+      </div>
 
-        <div class="privacy-highlight">
-            <p><strong>Your Privacy Matters:</strong> At Cykle, we're committed to protecting your privacy and being transparent about how we collect, use, and safeguard your personal information. This policy explains our practices in plain language.</p>
-        </div>
+      <div class="effective-date">
+        <strong>Effective Date:</strong> January 1, 2025<br />
+        <strong>Last Updated:</strong> January 1, 2025
+      </div>
 
-        <div class="toc">
-            <h3>Table of Contents</h3>
-            <ul>
-                <li><a href="#info-we-collect">1. Information We Collect</a></li>
-                <li><a href="#how-we-use">2. How We Use Your Information</a></li>
-                <li><a href="#sharing">3. Information Sharing</a></li>
-                <li><a href="#data-security">4. Data Security</a></li>
-                <li><a href="#your-rights">5. Your Rights and Choices</a></li>
-                <li><a href="#location-data">6. Location Data</a></li>
-                <li><a href="#third-parties">7. Third-Party Services</a></li>
-                <li><a href="#children">8. Children's Privacy</a></li>
-                <li><a href="#international">9. International Users</a></li>
-                <li><a href="#changes">10. Changes to This Policy</a></li>
-                <li><a href="#contact">11. Contact Us</a></li>
-            </ul>
-        </div>
+      <div class="privacy-highlight">
+        <p>
+          <strong>Your Privacy Matters:</strong> At Cykle, we're committed to
+          protecting your privacy and being transparent about how we collect,
+          use, and safeguard your personal information. This policy explains our
+          practices in plain language.
+        </p>
+      </div>
 
-        <h2 id="info-we-collect">1. Information We Collect</h2>
-        
-        <h3>1.1 Information You Provide</h3>
+      <div class="toc">
+        <h3>Table of Contents</h3>
         <ul>
-            <li><strong>Account Information:</strong> Name, email address, phone number, profile photo</li>
-            <li><strong>Profile Preferences:</strong> Style preferences, favorite eras, sizes, shopping interests</li>
-            <li><strong>Store Information (for verified stores):</strong> Business name, address, license information, storefront photos</li>
-            <li><strong>Communication:</strong> Messages between buyers and sellers, customer support inquiries</li>
-            <li><strong>Transaction Data:</strong> Purchase history, shipping addresses, payment method information (processed by Stripe)</li>
-            <li><strong>Content:</strong> Item listings, photos, descriptions, reviews, and ratings</li>
+          <li><a href="#info-we-collect">1. Information We Collect</a></li>
+          <li><a href="#how-we-use">2. How We Use Your Information</a></li>
+          <li><a href="#sharing">3. Information Sharing</a></li>
+          <li><a href="#data-security">4. Data Security</a></li>
+          <li><a href="#your-rights">5. Your Rights and Choices</a></li>
+          <li><a href="#location-data">6. Location Data</a></li>
+          <li><a href="#third-parties">7. Third-Party Services</a></li>
+          <li><a href="#children">8. Children's Privacy</a></li>
+          <li><a href="#international">9. International Users</a></li>
+          <li><a href="#changes">10. Changes to This Policy</a></li>
+          <li><a href="#contact">11. Contact Us</a></li>
         </ul>
+      </div>
 
-        <h3>1.2 Information We Collect Automatically</h3>
-        <ul>
-            <li><strong>Device Information:</strong> Device type, operating system, app version, device identifiers</li>
-            <li><strong>Usage Data:</strong> App interactions, features used, time spent in app, search queries</li>
-            <li><strong>Location Data:</strong> GPS coordinates (with permission) to show nearby stores and calculate distances</li>
-            <li><strong>Technical Data:</strong> IP address, log files, crash reports, performance data</li>
-        </ul>
+      <h2 id="info-we-collect">1. Information We Collect</h2>
 
-        <h3>1.3 Information from Third Parties</h3>
-        <ul>
-            <li><strong>POS System Data:</strong> Inventory information from connected Square, Shopify, or Stripe accounts</li>
-            <li><strong>Payment Processing:</strong> Transaction data from Stripe (we don't store full payment card information)</li>
-            <li><strong>Social Media:</strong> Profile information if you choose to link social accounts</li>
-        </ul>
+      <h3>1.1 Information You Provide</h3>
+      <ul>
+        <li>
+          <strong>Account Information:</strong> Name, email address, phone
+          number, profile photo
+        </li>
+        <li>
+          <strong>Profile Preferences:</strong> Style preferences, favorite
+          eras, sizes, shopping interests
+        </li>
+        <li>
+          <strong>Store Information (for verified stores):</strong> Business
+          name, address, license information, storefront photos
+        </li>
+        <li>
+          <strong>Communication:</strong> Messages between buyers and sellers,
+          customer support inquiries
+        </li>
+        <li>
+          <strong>Transaction Data:</strong> Purchase history, shipping
+          addresses, payment method information (processed by Stripe)
+        </li>
+        <li>
+          <strong>Content:</strong> Item listings, photos, descriptions,
+          reviews, and ratings
+        </li>
+      </ul>
 
-        <h2 id="how-we-use">2. How We Use Your Information</h2>
+      <h3>1.2 Information We Collect Automatically</h3>
+      <ul>
+        <li>
+          <strong>Device Information:</strong> Device type, operating system,
+          app version, device identifiers
+        </li>
+        <li>
+          <strong>Usage Data:</strong> App interactions, features used, time
+          spent in app, search queries
+        </li>
+        <li>
+          <strong>Location Data:</strong> GPS coordinates (with permission) to
+          show nearby stores and calculate distances
+        </li>
+        <li>
+          <strong>Technical Data:</strong> IP address, log files, crash reports,
+          performance data
+        </li>
+      </ul>
 
-        <table class="data-table">
-            <thead>
-                <tr>
-                    <th>Purpose</th>
-                    <th>Data Used</th>
-                    <th>Legal Basis</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Provide marketplace services</td>
-                    <td>Account info, preferences, transaction data</td>
-                    <td>Contract performance</td>
-                </tr>
-                <tr>
-                    <td>Location-based store discovery</td>
-                    <td>GPS location, store locations</td>
-                    <td>User consent</td>
-                </tr>
-                <tr>
-                    <td>Process payments and transactions</td>
-                    <td>Payment data, shipping addresses</td>
-                    <td>Contract performance</td>
-                </tr>
-                <tr>
-                    <td>Store verification</td>
-                    <td>Business license, storefront photos</td>
-                    <td>Legitimate business interest</td>
-                </tr>
-                <tr>
-                    <td>Personalized recommendations</td>
-                    <td>Style preferences, browsing history</td>
-                    <td>User consent</td>
-                </tr>
-                <tr>
-                    <td>Customer support</td>
-                    <td>Contact info, account data, communications</td>
-                    <td>Contract performance</td>
-                </tr>
-                <tr>
-                    <td>App improvement and analytics</td>
-                    <td>Usage data, technical data</td>
-                    <td>Legitimate business interest</td>
-                </tr>
-                <tr>
-                    <td>Security and fraud prevention</td>
-                    <td>Account activity, device info</td>
-                    <td>Legitimate business interest</td>
-                </tr>
-            </tbody>
-        </table>
+      <h3>1.3 Information from Third Parties</h3>
+      <ul>
+        <li>
+          <strong>POS System Data:</strong> Inventory information from connected
+          Square, Shopify, or Stripe accounts
+        </li>
+        <li>
+          <strong>Payment Processing:</strong> Transaction data from Stripe (we
+          don't store full payment card information)
+        </li>
+        <li>
+          <strong>Social Media:</strong> Profile information if you choose to
+          link social accounts
+        </li>
+      </ul>
 
-        <h2 id="sharing">3. Information Sharing</h2>
-        
-        <div class="important">
-            <p><strong>We never sell your personal information.</strong> We only share your data in the following limited circumstances:</p>
-        </div>
+      <h2 id="how-we-use">2. How We Use Your Information</h2>
 
-        <h3>3.1 With Other Users</h3>
-        <ul>
-            <li>Store owners can see buyer names and shipping addresses for completed purchases</li>
-            <li>Your profile information is visible to stores you message</li>
-            <li>Reviews and ratings you leave may be publicly visible</li>
-        </ul>
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Purpose</th>
+            <th>Data Used</th>
+            <th>Legal Basis</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Provide marketplace services</td>
+            <td>Account info, preferences, transaction data</td>
+            <td>Contract performance</td>
+          </tr>
+          <tr>
+            <td>Location-based store discovery</td>
+            <td>GPS location, store locations</td>
+            <td>User consent</td>
+          </tr>
+          <tr>
+            <td>Process payments and transactions</td>
+            <td>Payment data, shipping addresses</td>
+            <td>Contract performance</td>
+          </tr>
+          <tr>
+            <td>Store verification</td>
+            <td>Business license, storefront photos</td>
+            <td>Legitimate business interest</td>
+          </tr>
+          <tr>
+            <td>Personalized recommendations</td>
+            <td>Style preferences, browsing history</td>
+            <td>User consent</td>
+          </tr>
+          <tr>
+            <td>Customer support</td>
+            <td>Contact info, account data, communications</td>
+            <td>Contract performance</td>
+          </tr>
+          <tr>
+            <td>App improvement and analytics</td>
+            <td>Usage data, technical data</td>
+            <td>Legitimate business interest</td>
+          </tr>
+          <tr>
+            <td>Security and fraud prevention</td>
+            <td>Account activity, device info</td>
+            <td>Legitimate business interest</td>
+          </tr>
+        </tbody>
+      </table>
 
-        <h3>3.2 With Service Providers</h3>
-        <ul>
-            <li><strong>Stripe:</strong> Payment processing and transaction data</li>
-            <li><strong>Firebase:</strong> App hosting, database, and authentication services</li>
-            <li><strong>Unified.to:</strong> POS system integrations for inventory sync</li>
-            <li><strong>Cloud Storage:</strong> Secure storage of photos and app data</li>
-            <li><strong>Push Notifications:</strong> Delivery of app notifications</li>
-        </ul>
+      <h2 id="sharing">3. Information Sharing</h2>
 
-        <h3>3.3 Legal Requirements</h3>
-        <p>We may disclose information when required by law, such as:</p>
-        <ul>
-            <li>Response to legal processes (subpoenas, court orders)</li>
-            <li>Protecting rights, property, or safety of Cykle, users, or others</li>
-            <li>Preventing fraud or investigating suspected illegal activity</li>
-        </ul>
+      <div class="important">
+        <p>
+          <strong>We never sell your personal information.</strong> We only
+          share your data in the following limited circumstances:
+        </p>
+      </div>
 
-        <h3>3.4 Business Transfers</h3>
-        <p>In the event of a merger, acquisition, or sale of assets, user information may be transferred as part of the transaction.</p>
+      <h3>3.1 With Other Users</h3>
+      <ul>
+        <li>
+          Store owners can see buyer names and shipping addresses for completed
+          purchases
+        </li>
+        <li>Your profile information is visible to stores you message</li>
+        <li>Reviews and ratings you leave may be publicly visible</li>
+      </ul>
 
-        <h2 id="data-security">4. Data Security</h2>
-        
-        <p>We implement industry-standard security measures to protect your information:</p>
-        <ul>
-            <li><strong>Encryption:</strong> Data encrypted in transit and at rest</li>
-            <li><strong>Access Controls:</strong> Limited access to personal data on need-to-know basis</li>
-            <li><strong>Regular Security Audits:</strong> Ongoing monitoring and security assessments</li>
-            <li><strong>Secure Infrastructure:</strong> Firebase and AWS provide enterprise-grade security</li>
-            <li><strong>Payment Security:</strong> Stripe handles payment processing with PCI DSS compliance</li>
-        </ul>
+      <h3>3.2 With Service Providers</h3>
+      <ul>
+        <li>
+          <strong>Stripe:</strong> Payment processing and transaction data
+        </li>
+        <li>
+          <strong>Firebase:</strong> App hosting, database, and authentication
+          services
+        </li>
+        <li>
+          <strong>Unified.to:</strong> POS system integrations for inventory
+          sync
+        </li>
+        <li>
+          <strong>Cloud Storage:</strong> Secure storage of photos and app data
+        </li>
+        <li>
+          <strong>Push Notifications:</strong> Delivery of app notifications
+        </li>
+      </ul>
 
-        <div class="important">
-            <p><strong>Note:</strong> While we use best practices to protect your data, no system is 100% secure. We encourage you to use strong passwords and keep your account information confidential.</p>
-        </div>
+      <h3>3.3 Legal Requirements</h3>
+      <p>We may disclose information when required by law, such as:</p>
+      <ul>
+        <li>Response to legal processes (subpoenas, court orders)</li>
+        <li>
+          Protecting rights, property, or safety of Cykle, users, or others
+        </li>
+        <li>Preventing fraud or investigating suspected illegal activity</li>
+      </ul>
 
-        <h2 id="your-rights">5. Your Rights and Choices</h2>
-        
-        <h3>5.1 Account Management</h3>
-        <ul>
-            <li><strong>Access:</strong> View and download your personal data through the app</li>
-            <li><strong>Update:</strong> Modify your profile information and preferences anytime</li>
-            <li><strong>Delete:</strong> Request account deletion by contacting support</li>
-        </ul>
+      <h3>3.4 Business Transfers</h3>
+      <p>
+        In the event of a merger, acquisition, or sale of assets, user
+        information may be transferred as part of the transaction.
+      </p>
 
-        <h3>5.2 Communication Preferences</h3>
-        <ul>
-            <li><strong>Push Notifications:</strong> Enable/disable in your device settings</li>
-            <li><strong>Email Notifications:</strong> Unsubscribe from marketing emails</li>
-            <li><strong>SMS:</strong> Opt out of text messages by replying STOP</li>
-        </ul>
+      <h2 id="data-security">4. Data Security</h2>
 
-        <h3>5.3 Data Portability</h3>
-        <p>You can request a copy of your data in a machine-readable format by contacting <a href="mailto:privacy@cykle.co">privacy@cykle.co</a>.</p>
+      <p>
+        We implement industry-standard security measures to protect your
+        information:
+      </p>
+      <ul>
+        <li>
+          <strong>Encryption:</strong> Data encrypted in transit and at rest
+        </li>
+        <li>
+          <strong>Access Controls:</strong> Limited access to personal data on
+          need-to-know basis
+        </li>
+        <li>
+          <strong>Regular Security Audits:</strong> Ongoing monitoring and
+          security assessments
+        </li>
+        <li>
+          <strong>Secure Infrastructure:</strong> Firebase and AWS provide
+          enterprise-grade security
+        </li>
+        <li>
+          <strong>Payment Security:</strong> Stripe handles payment processing
+          with PCI DSS compliance
+        </li>
+      </ul>
 
-        <h2 id="location-data">6. Location Data</h2>
-        
-        <p>Cykle uses location data to enhance your experience:</p>
-        <ul>
-            <li><strong>Store Discovery:</strong> Find vintage stores near your location</li>
-            <li><strong>Distance Calculations:</strong> Show how far stores and items are from you</li>
-            <li><strong>Local Recommendations:</strong> Suggest relevant stores and items</li>
-        </ul>
+      <div class="important">
+        <p>
+          <strong>Note:</strong> While we use best practices to protect your
+          data, no system is 100% secure. We encourage you to use strong
+          passwords and keep your account information confidential.
+        </p>
+      </div>
 
-        <p><strong>Your Control:</strong> You can disable location access anytime in your device settings. Some features may be limited without location access.</p>
+      <h2 id="your-rights">5. Your Rights and Choices</h2>
 
-        <h2 id="third-parties">7. Third-Party Services</h2>
-        
-        <p>Cykle integrates with several third-party services. Each has their own privacy policy:</p>
-        <ul>
-            <li><strong>Stripe:</strong> <a href="https://stripe.com/privacy">stripe.com/privacy</a></li>
-            <li><strong>Firebase/Google:</strong> <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
-            <li><strong>Unified.to:</strong> <a href="https://unified.to/privacy">unified.to/privacy</a></li>
-        </ul>
+      <h3>5.1 Account Management</h3>
+      <ul>
+        <li>
+          <strong>Access:</strong> View and download your personal data through
+          the app
+        </li>
+        <li>
+          <strong>Update:</strong> Modify your profile information and
+          preferences anytime
+        </li>
+        <li>
+          <strong>Delete:</strong> Request account deletion by contacting
+          support
+        </li>
+      </ul>
 
-        <h2 id="children">8. Children's Privacy</h2>
-        
-        <p>Cykle is not intended for children under 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, please contact us immediately.</p>
+      <h3>5.2 Communication Preferences</h3>
+      <ul>
+        <li>
+          <strong>Push Notifications:</strong> Enable/disable in your device
+          settings
+        </li>
+        <li>
+          <strong>Email Notifications:</strong> Unsubscribe from marketing
+          emails
+        </li>
+        <li><strong>SMS:</strong> Opt out of text messages by replying STOP</li>
+      </ul>
 
-        <h2 id="international">9. International Users</h2>
-        
-        <p>Cykle is based in the United States. If you use our service from outside the US, your information may be transferred to and processed in the United States, which may have different privacy laws than your country.</p>
+      <h3>5.3 Data Portability</h3>
+      <p>
+        You can request a copy of your data in a machine-readable format by
+        contacting <a href="mailto:privacy@cykle.co">privacy@cykle.co</a>.
+      </p>
 
-        <h3>9.1 European Users (GDPR)</h3>
-        <p>If you're in the European Economic Area, you have additional rights:</p>
-        <ul>
-            <li>Right to access, rectify, or erase your personal data</li>
-            <li>Right to restrict or object to processing</li>
-            <li>Right to data portability</li>
-            <li>Right to withdraw consent</li>
-            <li>Right to lodge a complaint with supervisory authorities</li>
-        </ul>
+      <h2 id="location-data">6. Location Data</h2>
 
-        <h2 id="changes">10. Changes to This Policy</h2>
-        
-        <p>We may update this Privacy Policy periodically. We'll notify you of significant changes through:</p>
-        <ul>
-            <li>In-app notifications</li>
-            <li>Email notifications</li>
-            <li>Updates to this page with new effective date</li>
-        </ul>
+      <p>Cykle uses location data to enhance your experience:</p>
+      <ul>
+        <li>
+          <strong>Store Discovery:</strong> Find vintage stores near your
+          location
+        </li>
+        <li>
+          <strong>Distance Calculations:</strong> Show how far stores and items
+          are from you
+        </li>
+        <li>
+          <strong>Local Recommendations:</strong> Suggest relevant stores and
+          items
+        </li>
+      </ul>
 
-        <p>Continued use of Cykle after changes constitutes acceptance of the updated policy.</p>
+      <p>
+        <strong>Your Control:</strong> You can disable location access anytime
+        in your device settings. Some features may be limited without location
+        access.
+      </p>
 
-        <h2 id="contact">11. Contact Us</h2>
-        
-        <div class="contact-info">
-            <h3>Privacy Questions or Concerns?</h3>
-            <p>We're here to help with any privacy-related questions:</p>
-            <p><strong>Email:</strong> <a href="mailto:privacy@cykle.co">privacy@cykle.co</a></p>
-            <p><strong>Support:</strong> <a href="https://www.cykle.co/support">www.cykle.co/support</a></p>
-            <p><strong>Mail:</strong> Cykle Privacy Officer<br>
-            [Your Business Address]<br>
-            [City, State ZIP Code]</p>
-            <p><em>We typically respond to privacy inquiries within 48 hours</em></p>
-        </div>
+      <h2 id="third-parties">7. Third-Party Services</h2>
 
-        <div class="privacy-highlight">
-            <p><strong>Remember:</strong> Your privacy is important to us. We're committed to being transparent about our practices and giving you control over your personal information. If you have any questions about this policy or how we handle your data, please don't hesitate to reach out.</p>
-        </div>
+      <p>
+        Cykle integrates with several third-party services. Each has their own
+        privacy policy:
+      </p>
+      <ul>
+        <li>
+          <strong>Stripe:</strong>
+          <a href="https://stripe.com/privacy">stripe.com/privacy</a>
+        </li>
+        <li>
+          <strong>Firebase/Google:</strong>
+          <a href="https://policies.google.com/privacy"
+            >policies.google.com/privacy</a
+          >
+        </li>
+        <li>
+          <strong>Unified.to:</strong>
+          <a href="https://unified.to/privacy">unified.to/privacy</a>
+        </li>
+      </ul>
+
+      <h2 id="children">8. Children's Privacy</h2>
+
+      <p>
+        Cykle is not intended for children under 13. We do not knowingly collect
+        personal information from children under 13. If you believe a child has
+        provided us with personal information, please contact us immediately.
+      </p>
+
+      <h2 id="international">9. International Users</h2>
+
+      <p>
+        Cykle is based in the United States. If you use our service from outside
+        the US, your information may be transferred to and processed in the
+        United States, which may have different privacy laws than your country.
+      </p>
+
+      <h3>9.1 European Users (GDPR)</h3>
+      <p>
+        If you're in the European Economic Area, you have additional rights:
+      </p>
+      <ul>
+        <li>Right to access, rectify, or erase your personal data</li>
+        <li>Right to restrict or object to processing</li>
+        <li>Right to data portability</li>
+        <li>Right to withdraw consent</li>
+        <li>Right to lodge a complaint with supervisory authorities</li>
+      </ul>
+
+      <h2 id="changes">10. Changes to This Policy</h2>
+
+      <p>
+        We may update this Privacy Policy periodically. We'll notify you of
+        significant changes through:
+      </p>
+      <ul>
+        <li>In-app notifications</li>
+        <li>Email notifications</li>
+        <li>Updates to this page with new effective date</li>
+      </ul>
+
+      <p>
+        Continued use of Cykle after changes constitutes acceptance of the
+        updated policy.
+      </p>
+
+      <h2 id="contact">11. Contact Us</h2>
+
+      <div class="contact-info">
+        <h3>Privacy Questions or Concerns?</h3>
+        <p>We're here to help with any privacy-related questions:</p>
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:privacy@cykle.co">privacy@cykle.co</a>
+        </p>
+        <p>
+          <strong>Support:</strong>
+          <a href="https://www.cykle.co/support">www.cykle.co/support</a>
+        </p>
+        <p>
+          <em>We typically respond to privacy inquiries within 48 hours</em>
+        </p>
+      </div>
+
+      <div class="privacy-highlight">
+        <p>
+          <strong>Remember:</strong> Your privacy is important to us. We're
+          committed to being transparent about our practices and giving you
+          control over your personal information. If you have any questions
+          about this policy or how we handle your data, please don't hesitate to
+          reach out.
+        </p>
+      </div>
     </div>
-</body>
+  </body>
 </html>
